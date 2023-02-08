@@ -18,12 +18,12 @@ export default function MapScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#B0FFFF',
+    backgroundColor: '#ffffff',
     alignItems: 'center',
     justifyContent: 'center',
   },
   text: {
-    color: '#044F4F',
+    color: '#000000',
     fontSize: 24,
   }
 });
