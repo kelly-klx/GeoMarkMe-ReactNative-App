@@ -9,7 +9,7 @@ export default function MapScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <Text
-      style={styles.text}>MAP GOES HERE !</Text>
+      style={styles.text}>MAP SCREEN</Text>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   text: {
-    color: '#000000',
-    fontSize: 24,
+    color: '#044F4F',
+    fontSize: 18,
   }
 });

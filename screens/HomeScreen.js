@@ -13,8 +13,14 @@ export default function HomeScreen( {navigation} ) {
       <TouchableOpacity
       onPress={() => navigation.navigate("Map")}>
         <Image
-        style={styles.button}
-        source={require('../assets/HomeButton.png')}/>
+        style={styles.locationButton}
+        source={require('../assets/LocationButton.png')}/>
+      </TouchableOpacity>
+      <TouchableOpacity
+      onPress={() => navigation.navigate("Map")}>
+        <Image 
+        style={styles.mapButton}
+        source={require('../assets/MapButton.png')}/>
       </TouchableOpacity>
     </SafeAreaView>
   );
@@ -30,10 +36,16 @@ const styles = StyleSheet.create({
   icon: {
     width: 295,
     height: 204,
+    margin: 28,
   },
-  button: {
-    width: 240,
-    height: 76,
-    margin: 44,
+  locationButton: {
+    width: 270,
+    height: 77,
+    margin: 28,
+  },
+  mapButton: {
+    width: 194,
+    height: 77,
+    margin: 0,
   }
 });

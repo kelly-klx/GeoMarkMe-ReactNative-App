@@ -19,7 +19,9 @@ export default function App() {
         name="Map"
         component={MapScreen}
         options={{
-          headerStyle: {backgroundColor: '#ffffffff'},
+          headerStyle: {backgroundColor: '#044F4F'},
+          headerTintColor: '#ffffff',
+          headerTitleStyle: {fontWeight: 'Bold'},
           title: "Return Home"}}
         />
       </Stack.Navigator>
